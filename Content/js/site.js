@@ -1,16 +1,16 @@
 var position_active = 0;
 $(document).ready(function(){
-    $(".list-inline-item-link").each(function(index,element){
+    $(".list-inline-item").each(function(index,element){
         if($(element).hasClass("active"))
-        position_active = index;
+            position_active = index;
     });
 
-    $(".list-inline-item-link").hover(
+    $(".list-inline-item").hover(
         function () {
-            $(".list-inline-item-link").removeClass("active");
+            $(".list-inline-item").removeClass("active");
         }, 
         function () {
-            var elementActive = $(".list-inline-item-link")[position_active];
+            var elementActive = $(".list-inline-item")[position_active];
             $(elementActive).addClass("active");
         }
     );
@@ -30,7 +30,7 @@ $(document).ready(function(){
 });
 
 function ActiveMenu(ElementId){
-    $("#" + ElementId).addClass("active");
+    $("#" + ElementId).parent().addClass("active");
 }
 
 function ReloadSliderImageMobile(){
