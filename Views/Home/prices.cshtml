@@ -1,6 +1,6 @@
 ﻿@{
     ViewBag.Title = "Price List";
-    var Prices = (List<WebNails.Models.PricesModel>)ViewBag.Prices;
+    var Prices = (List<WebTattoo.Models.PricesModel>)ViewBag.Prices;
     Prices = Prices.Where(x => !string.IsNullOrEmpty(x.Src) && x.Status).ToList();
 }
 @section css{

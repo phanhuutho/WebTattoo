@@ -1,7 +1,7 @@
 ﻿@{
     ViewBag.Title = ViewBag.Name;
     var showCoupon = (bool)ViewBag.ShowCoupon;
-    var Coupons = (List<WebNails.Models.CouponModel>)ViewBag.Coupons;
+    var Coupons = (List<WebTattoo.Models.CouponModel>)ViewBag.Coupons;
     Coupons = Coupons.Where(x => x.Src != "" && x.Status).ToList();
 }
 @section css{
