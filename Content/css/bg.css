@@ -1,0 +1,79 @@
+.bg{
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    width: 100%;
+    max-width: unset;
+    position: relative;
+}
+.bg .overlay{
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.bg .bg-contact {
+    height: 800px;
+    background-image: url(../images/banner/contact/contact_banner.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 100%;
+    background-size: cover !important;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.bg .bg-contact .description{
+    font-family: Parisienne; 
+    font-size: 48px; 
+    color: var(--color-black);
+    font-weight: bold;
+    text-shadow: 0px 0px 5px var(--color-white);
+    line-height: 1.75;
+}
+.bg-overlay{
+    background-color: rgba(255, 255, 255, 0.75);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.bg .bg-about-us {
+    background-color: var(--color-theme);
+    background-image: url(../images/about-us/about-us_bg.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+    min-height: 600px;
+}
+.bg .bg-gift {
+    background-color: var(--color-theme);
+    background-image: url(../images/e-gift/gift_bg.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+    min-height: 850px;
+}
+.bg .bg-services {
+    background-color: var(--color-theme);
+    background-image: url(../images/services/services_bg.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 35% 50%;
+    background-size: cover !important;
+    min-height: 990px;
+}
+.bg-linear-green-blue{
+    background: linear-gradient(to right, RGBA(46,204,113,1) 0%,RGBA(69,85,239,1) 100%);
+}
+.bg-linear-blue{
+    background: linear-gradient(to right, RGBA(13,194,237,1) 0%,RGBA(69,85,239,1) 100%);
+}
+
+.bg-linear-yellow-red {
+    background: linear-gradient(to right, RGB(240,200,15) 0%,RGB(241,33,33) 100%);
+}
+
+.bg-linear-red-yellow {
+    background: linear-gradient(to right, RGB(241,33,33) 0%,RGB(240,200,15) 100%);
+}

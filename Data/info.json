@@ -1,0 +1,62 @@
+{
+  "Name": "Heaven Nails & Spa",
+  "HyperLinkTell": "tel:(910)2191243",
+  "TextTell": "(910)-219-1243",
+  "GooglePlus": "https://www.google.com/search?q=Heaven+Nails+28540",
+  "Address": "1237 Hargett St, Jacksonville, NC 28540",
+  "LinkGoogleMapAddress": "https://maps.app.goo.gl/3NutwquHXWZheWeZA",
+  "LinkIFrameGoogleMap": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13112.5336910158!2d-77.4126585!3d34.7522317!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89a91193357b93b9%3A0x8ed444d2d578e452!2sHeaven%20Nails%20%26%20Spa!5e0!3m2!1sen!2s!4v1696091967037!5m2!1sen!2s",
+  "LinkBookingAppointment": "",
+  "ShowCoupon": true,
+  "Coupons": [
+    {
+      "Status": true,
+      "Src": "/Content/images/popup/coupon-01.jpg"
+    }
+  ],
+  "Prices": [
+    {
+      "Status": true,
+      "Src": "/Content/images/price-list/prices-01.jpg"
+    },
+    {
+      "Status": true,
+      "Src": "/Content/images/price-list/prices-01.jpg"
+    }
+  ],
+  "Telegram": {
+    "Title": "Telegram",
+    "Url": "",
+    "Position": 1,
+    "ClassIcon": "fa fa-telegram",
+    "BackgroundColor": "#34a9e4"
+  },
+  "Facebook": {
+    "Title": "Facebook",
+    "Url": "",
+    "Position": 2,
+    "ClassIcon": "fa fa-facebook-f",
+    "BackgroundColor": "#1877f2"
+  },
+  "Instagram": {
+    "Title": "Instagram",
+    "Url": "",
+    "Position": 3,
+    "ClassIcon": "fa fa-instagram",
+    "BackgroundColor": "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)"
+  },
+  "Twitter": {
+    "Title": "Twitter",
+    "Url": "",
+    "Position": 4,
+    "ClassIcon": "fa fa-twitter",
+    "BackgroundColor": "#1d9bf0"
+  },
+  "Youtube": {
+    "Title": "Youtube",
+    "Url": "",
+    "Position": 5,
+    "ClassIcon": "fa fa-youtube-play",
+    "BackgroundColor": "#ff0000"
+  }
+}

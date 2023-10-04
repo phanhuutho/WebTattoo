@@ -1,0 +1,115 @@
+/*root*/
+:root {
+    --bg-site: #ececec;
+    --color-theme: #c8ac59;
+    --color-menu-legend: #c8ac59;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-text-theme: #c8ac59;
+    --box-shadow: 0px 0px 10px #000000;
+    --padding-box: 2px;
+    --color-yellow-pastle: #f5efc1;
+    --color-pink-pastle: #f5e6f5;
+    --color-blue-pastle: #d4effa;
+    --color-green-pastle: #c6dbc6;
+    --color-orange-pastle: #ffcd98;
+    --color-red-pastle: #f1caca;
+}
+html {
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+body {
+    background-color: transparent;
+}
+main{
+    overflow-x:hidden;
+}
+header {
+    background: linear-gradient(135deg, var(--color-black) 40%, var(--color-theme) 0%);
+}
+
+a:active,a:hover {
+    outline-width: 0
+}
+
+/*Logo*/
+.logo, .navbar-brand img {
+    max-width: 155px;
+    margin: 5px 0px;
+}
+
+/*font*/
+.font-Prata{
+    font-family: 'Prata' !important;
+}
+.font-Parisienne{
+    font-family: 'Parisienne' !important;
+}
+
+/*divider*/
+.divider {
+    max-width: 200px;
+    background-color: var(--bg-site);
+    height: 3px;
+    margin: 0 auto;
+}
+
+/*css*/
+.btn-none-border{
+    border: 0 !important;
+}
+.btn-border, .border {
+    border-width: 1px !important;
+}
+.btn-border-black, .border-black {
+    border-color: #666666 !important;
+}
+.btn-bg-white{
+    background: #FFFFFF;
+    color: #000000;
+}
+.btn-call {
+    padding: 20px 30px 20px 30px;
+    background-color: #000000;
+    border: 0;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.modal-content {
+    border-width: 5px;
+    border-color: #000000;
+}
+.left-10-percent{
+    left:10%;
+    width: 60%;
+}
+.btn-theme {
+    background: var(--color-theme);
+    border-color: var(--color-theme);
+    color: var(--color-white);
+    font-family: 'Fira Sans';
+    font-weight: bold;
+    letter-spacing: 3px;
+    border-radius: 30px;
+}
+
+.img-hover-zoom {
+    overflow: hidden;
+}
+
+.img-hover-zoom img {
+    transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(1.20);
+    cursor: pointer;
+}

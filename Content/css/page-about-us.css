@@ -1,0 +1,30 @@
+.page-main {
+    position: relative;
+    font-family: "Vesper Libre";
+    color: var(--color-black);
+}
+.page-main h1 {
+    font-size: 250%;
+    color: var(--color-text-theme);
+}
+.page-main h1 span {
+    padding-bottom: 25px;
+    border-bottom: 2px solid var(--color-text-theme);
+    font-weight: 900;
+}
+#about-us p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#staff h2 {
+    font-weight: bold;
+    color: var(--color-text-theme);
+    font-size: 2.5em;
+    line-height: 2;
+    font-family: "Parisienne";
+}
+#staff h2 span {
+    padding-bottom: 25px;
+    border-bottom: 2px solid var(--color-text-theme);
+    font-weight: 900;
+}
