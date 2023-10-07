@@ -1,2 +1,4 @@
 /.vs/WebTattoo/v16/.suo
 /obj/Debug/WebTattoo.csproj.AssemblyReference.cache
+/bin/WebTattoo.dll
+/bin/WebTattoo.pdb
