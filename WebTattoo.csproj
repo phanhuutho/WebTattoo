@@ -187,6 +187,9 @@
     <Content Include="Content\images\banner\home\home_banner_5.jpg" />
     <Content Include="Content\images\banner\slider\all-services.jpg" />
     <Content Include="Content\images\banner\slider\e-gift.jpg" />
+    <Content Include="Content\images\banner\slider\slider-1.jpg" />
+    <Content Include="Content\images\banner\slider\slider-2.jpg" />
+    <Content Include="Content\images\banner\slider\slider-3.jpg" />
     <Content Include="Content\images\banner\slider\your-nails.jpg" />
     <Content Include="Content\images\close.png" />
     <Content Include="Content\images\contact\service_bg.jpg" />
