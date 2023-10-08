@@ -176,6 +176,8 @@
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\fonts\slick.svg" />
     <Content Include="Content\images\about-us\about-us_bg.jpg" />
+    <Content Include="Content\images\about-us\img_about.jpg" />
+    <Content Include="Content\images\about-us\img_why.jpg" />
     <Content Include="Content\images\ajax-loader.gif" />
     <Content Include="Content\images\background_darkwood.jpg" />
     <Content Include="Content\images\banner\contact\contact_banner.jpg" />
@@ -210,6 +212,7 @@
     <Content Include="Content\images\e-gift\gift_9.jpg" />
     <Content Include="Content\images\e-gift\gift_bg.jpg" />
     <Content Include="Content\images\favicon.png" />
+    <Content Include="Content\images\home\home_about_us.jpg" />
     <Content Include="Content\images\home\home_business.jpg" />
     <Content Include="Content\images\home\home_contact_bg.jpg" />
     <Content Include="Content\images\home\home_contact_image_1.jpg" />
@@ -221,6 +224,10 @@
     <Content Include="Content\images\home\home_contact_image_7.jpg" />
     <Content Include="Content\images\home\home_contact_image_8.jpg" />
     <Content Include="Content\images\home\home_e_gift.jpg" />
+    <Content Include="Content\images\home\home_service_1.jpg" />
+    <Content Include="Content\images\home\home_service_2.jpg" />
+    <Content Include="Content\images\home\home_service_3.jpg" />
+    <Content Include="Content\images\home\home_service_4.jpg" />
     <Content Include="Content\images\home\home_service_bg.jpg" />
     <Content Include="Content\images\icon-1-1.png" />
     <Content Include="Content\images\icon-2-1.png" />

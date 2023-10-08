@@ -1,5 +1,4 @@
 ﻿<section class="about-us">
-    <div class="overlay"></div>
     <div class="container-lg">
         <div class="row">
             <div class="col-lg-6 order-lg-1 col-md-12 order-2 py-5">
@@ -9,6 +8,14 @@
                         <div class="divider mb-4"></div>
                         @Html.Raw(string.Format("{0}", ViewBag.HomeAboutUs))
                         <a class="btn btn-default btn-more btn-border btn-border-black" href="about-us.html">VIEW MORE</a>
+                    </div>
+                    <div class="box-inner mt-5">
+                        <h1>Business Hour</h1>
+                        <div class="divider mb-4"></div>
+                        @Html.Raw(string.Format("{0}", ViewBag.BusinessHours))
+                        <a class="btn btn-default btn-more btn-border btn-border-black" href="@(!string.IsNullOrEmpty(string.Format("{0}", ViewBag.LinkBookingAppointment)) ? ViewBag.LinkBookingAppointment : ViewBag.HyperLinkTell)" target="_blank">
+                            @(!string.IsNullOrEmpty(string.Format("{0}", ViewBag.LinkBookingAppointment)) ? "Book Appointment" : "call us") <i class="@(!string.IsNullOrEmpty(string.Format("{0}", ViewBag.LinkBookingAppointment)) ? "fa fa-calendar" : "fa fa-phone")"></i>
+                        </a>
                     </div>
                 </div>
             </div>
