@@ -344,10 +344,13 @@
     max-width: 100%;
 }
 .about-us .box-inner h1{
-    font-size: 3em; 
-    font-family: "Parisienne"; 
+    font-size: 230%; 
+    font-family: "Vesper Libre"; 
     color: var(--color-theme);
     font-weight: bold;
+}
+.about-us .box-inner h4{
+    font-family: "Vesper Libre";
 }
 .about-us .box-inner p{
     color: var(--color-black);
@@ -515,10 +518,35 @@
 .services .bg-services .container-xl{
     position: relative;
 }
+.services .box-image, .services .box-hour {
+    background-color: #FFFFFF;
+    padding: 7px 7px;
+}
+.services .box-image .image-about-us {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/home/home_about_us.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 85% 50%;
+    background-size: cover !important;
+}
+.services .box-hour {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services .box-hour h1 {
+    font-family: "Parisienne"; 
+}
+.services .box-hour .divider {
+    max-width: 300px;
+    background-color: var(--color-theme);
+}
 .services .box-inner{
     background-color: #FFFFFF;
-    padding: 30px 25px;
-    height: 200px;
+    padding: 15px 10px;
+    height: 150px;
 }
 .services .box-inner p{
     font-family: "Carme";

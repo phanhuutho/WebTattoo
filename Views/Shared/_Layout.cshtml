@@ -63,10 +63,10 @@
                     <div class="menu-desktop">
                         <ul class="list-inline">
                             <li class="list-inline-item">
-                                <a class="list-inline-item-link" id="menu-home" href="index.html">Home</a>
+                                <a class="list-inline-item-link" id="menu-home" href="/index.html">Home</a>
                             </li>
                             <li class="list-inline-item">
-                                <a class="list-inline-item-link" id="menu-services" href="services.html">Services</a>
+                                <a class="list-inline-item-link" id="menu-services" href="/services.html">Services</a>
                             </li>
                             @*<li class="list-inline-item">
                                 <a class="list-inline-item-link" id="menu-price-list" href="price-list.html">Price List</a>
@@ -75,13 +75,20 @@
 		                        <a class="list-inline-item-link" id="menu-gallery" href="gallery.html">Gallery</a>
 	                        </li>*@
                             <li class="list-inline-item">
-                                <a class="list-inline-item-link" id="menu-e-gift" href="e-gift.html">Gift Card</a>
+                                <a class="list-inline-item-link" id="menu-artists" href="/artists.html">Artists</a>
+                            </li>
+                            <li class="list-inline-item dropdown">
+                                <a class="dropdown-toggle list-inline-item-link" id="menu-studio" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Studio</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/about-us.html">About us</a></li>
+                                    <li><a class="dropdown-item" href="/policies.html">Policies</a></li>
+                                    <li><a class="dropdown-item" href="/aftercare.html">Aftercare</a></li>
+                                    <li><a class="dropdown-item" href="/faqs.html">FAQs</a></li>
+                                    <li><a class="dropdown-item" href="/e-gift.html">Gift Card</a></li>
+                                </ul>
                             </li>
                             <li class="list-inline-item">
-                                <a class="list-inline-item-link" id="menu-about-us" href="about-us.html">About Us</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="list-inline-item-link" id="menu-contact" href="contact.html">Contact</a>
+                                <a class="list-inline-item-link" id="menu-contact" href="/contact.html">Contact</a>
                             </li>
                             <li class="list-inline-item">
                                 <a class="list-inline-item-link" id="menu-booking" href="@(ViewBag.LinkBookingAppointment)" target="_blank">Book Appointment</a>
@@ -94,10 +101,10 @@
         <div class="list-menu">
             <ul class="list-unstyled">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="/index.html">Home</a>
                 </li>
                 <li>
-                    <a href="services.html">Services</a>
+                    <a href="/services.html">Services</a>
                 </li>
                 @*<li>
                     <a href="price-list.html">Price List</a>
@@ -106,13 +113,20 @@
 		            <a href="gallery.html">Gallery</a>
 	            </li>*@
                 <li>
-                    <a href="e-gift.html">Gift Card</a>
+                    <a href="/artists.html">Artists</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Studio</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/about-us.html">About us</a></li>
+                        <li><a class="dropdown-item" href="/policies.html">Policies</a></li>
+                        <li><a class="dropdown-item" href="/aftercare.html">Aftercare</a></li>
+                        <li><a class="dropdown-item" href="/faqs.html">FAQs</a></li>
+                        <li><a class="dropdown-item" href="/e-gift.html">Gift Card</a></li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="about-us.html">About Us</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="/contact.html">Contact</a>
                 </li>
                 <li>
                     <a href="@(!string.IsNullOrEmpty(string.Format("{0}", ViewBag.LinkBookingAppointment)) ? ViewBag.LinkBookingAppointment : ViewBag.HyperLinkTell)" target="_blank" class="call-us">

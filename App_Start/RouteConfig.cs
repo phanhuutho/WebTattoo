@@ -113,6 +113,54 @@ namespace WebTattoo
                     controller = "Home",
                     action = "Finish"
                 });
+
+            routes.MapRoute(
+                "Artists", "artists.html",
+                new
+                {
+                    controller = "Home",
+                    action = "Artists"
+                });
+
+            routes.MapRoute(
+                "Policies", "policies.html",
+                new
+                {
+                    controller = "Home",
+                    action = "Policies"
+                });
+
+            routes.MapRoute(
+                "Aftercare", "aftercare.html",
+                new
+                {
+                    controller = "Home",
+                    action = "Aftercare"
+                });
+
+            routes.MapRoute(
+                "FAQS", "faqs.html",
+                new
+                {
+                    controller = "Home",
+                    action = "FAQS"
+                });
+
+            routes.MapRoute(
+                "Detail Artists", "artists/detail.html",
+                new
+                {
+                    controller = "Artists",
+                    action = "Detail"
+                });
+
+            routes.MapRoute(
+                "Detail Services", "services/detail.html",
+                new
+                {
+                    controller = "Services",
+                    action = "Detail"
+                });
         }
     }
 }

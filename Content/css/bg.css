@@ -47,6 +47,15 @@
     background-size: cover !important;
     min-height: 600px;
 }
+.bg .bg-policies, .bg .bg-aftercare, .bg .bg-faqs {
+    background-color: var(--color-theme);
+    background-image: url(../images/about-us/about-us_bg.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+    min-height: 600px;
+    background-attachment: fixed;
+}
 .bg .bg-gift {
     background-color: var(--color-theme);
     background-image: url(../images/e-gift/gift_bg.jpg);

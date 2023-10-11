@@ -281,7 +281,7 @@
         width: 100%;
     }
     .about-us .box-inner h1{
-        font-size: 4.2em;
+
     }
     .beauty-spa .beauty-spa-inner{
         height: auto;
@@ -318,10 +318,10 @@
         top: 0 !important;
     }
     .services{
-        height: 960px;
+        height: auto;
     }
     .services .bg-services{
-        height: 960px;
+        height: auto;
         background-position: 65% 50%;
     }
     .business{

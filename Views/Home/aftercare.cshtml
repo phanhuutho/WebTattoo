@@ -1,0 +1,193 @@
+﻿@{
+    ViewBag.Title = "Aftercare";
+}
+@section css{
+    <link href="~/Content/css/animate.min.css" rel="stylesheet">
+    <link href="~/Content/css/slick.css" rel="stylesheet">
+    <link href="~/Content/css/slick-theme.css" rel="stylesheet">
+    <link href="~/Content/css/slider.css" rel="stylesheet">
+    <link href="~/Content/css/page-aftercare.css" rel="stylesheet">
+}
+<main>
+    @{Html.RenderPartial("_SliderPageSub");}
+    <section class="bg">
+        <div class="bg-aftercare">
+            <div class="overlay"></div>
+            <div class="page-main container-xl py-5" id="aftercare">
+                <div class="row">
+                    <div class="col-xl-12 text-center my-3">
+                        <h2>AFTERCARE</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="accordion" id="accordionAftercare">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_deposits">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_cosmetic_tattoo" aria-expanded="false" aria-controls="collapse_cosmetic_tattoo">
+                                        COSMETIC TATTOO
+                                    </button>
+                                </h2>
+                                <div id="collapse_cosmetic_tattoo" class="accordion-collapse collapse" aria-labelledby="heading_cosmetic_tattoo" data-bs-parent="#accordionAftercare">
+                                    <div class="accordion-body">
+                                        <p>
+                                            We like to keep things simple over here.
+                                            Now that the hard part is over, you can sit back and do nothing - literally.
+                                            All we want you to do is blot off any fluid forming for the first 24 hours, then begin cleaning morning and night for the next 7 days with an antibacterial cleanser.
+                                            Your artist will talk you through the aftercare more in depth at your appointment.
+                                        </p>
+                                        <p>Although the post care is easy, it is VERY important to avoid:</p>
+                                        <ul>
+                                            <li>
+                                                Getting the treated area wet in the shower.
+                                                (I know, we told you to clean with water but now we're telling you to keep them dry.
+                                                It's the AMOUNT of water that's important to avoid.
+                                                Keep them clean, but do NOT submerge in excessive water or moisture)
+                                            </li>
+                                            <li>
+                                                DO NOT pick or scratch at the dry skin / flakes.
+                                                Picking can cause scarring and a loss of pigment.
+                                                Note: After the flakes have completely fallen off, a new layer of healing skin will completely cover the tattoo and it may appear too soft and light for your liking.
+                                                Be patient, the tattoo isn't done healing yet.
+                                                Pigment should reappear in 3-4 weeks from this point.
+                                            </li>
+                                            <li>DO NOT apply makeup or any products other than cleanser for 7 days.</li>
+                                            <li>
+                                                DO NOT use Vaseline, Neosporin, or other petroleum based products.
+                                                If you need an ointment for healing, we recommend Aquaphore.
+                                            </li>
+                                            <li>DO NOT bleach, tint, or dye the treated area for one month following the tattoo.</li>
+                                            <li>DO NOT use any active skincare products on or around the tattooed area while healing.</li>
+                                            <li>NO exercising (sweating), vacations, pools, sun exposure for at LEAST 7 days post tattoo.</li>
+                                            <li>
+                                                For lips: Avoid contact to the lips.
+                                                Avoid hot, spicy, or greasy foods. Consume all colorful, hot, or alcoholic drinks through a straw.
+                                                Apply a thin amount of given ointment or Aquaphore every 2-3 hours, keeping them lightly hydrated.
+                                            </li>
+                                        </ul>
+                                        <p>
+                                            <a class="btn btn-warning bg-theme" href="https://www.youtube.com/watch?v=khIQ5AqdDrg&t=8s" target="_blank">AFTERCARE VLOG VIDEO</a>
+                                        </p>
+                                        <h4>HEALING STAGES</h4>
+                                        <p><b>Day 1-2</b></p>
+                                        <p>
+                                            Brows are going to look dark, warm toned, swollen/tender.
+                                            Why? The warmth comes from the skin irritation from tattooing under the pigment (along with pigment formula), so it’s normal to look reddish.
+                                            They’re going to look dark because you have to reach a level of saturation in order for them to heal with “enough” saturation.
+                                            The brows fade by 30-40% when healed.
+                                        </p>
+                                        <p>
+                                            Same concept for Lip Blush, Eyeliner, and Freckle tattoos, the color will look really bold and opaque.
+                                        </p>
+                                        <p><b>Day 3-5</b></p>
+                                        <p>
+                                            Flaking and scabbing has begun.
+                                            However, the first step into your aftercare during the first 24 hours was to blot your brows/the tattoo to remove any build up of lymphatic fluid.
+                                            This fluid is so small to the human eye, but it's still encouraged to blot your brows/tattoo regardless of seeing the fluid or not.
+                                            Why? Removing lymphatic fluid prevents that fluid from hardening and creating chunky thick scabs.
+                                            Chunky thick scabs would promote pulling out picking; thus healing light and patchy.
+                                            Cleansing the brows/tattoo is still important, but do not pick or pull off any scabs that aren't already detached naturally.
+                                        </p>
+                                        <p><b>Day 6-7</b> (can last up to 2-3 weeks)</p>
+                                        <p>
+                                            This is the light stage.
+                                            The flaking and scabs have shed off, and it’s revealed a new layer of skin that can look shiny and most importantly; really light in pigment. Why is that?
+                                            The skin creates a new layer of skin that is now covering the layer of skin that the pigment is deposited in.
+                                            The healing skin is denser, as the regeneration processes make the cells closely compacted, so the skin is more opaque, so to say.
+                                            Until your skin is fully healed, the pigment that is underneath this new skin is going to look very soft and muted in color.
+                                            It’s important to be patient as artists and clients for 4-6 weeks minimum.
+                                            Once healed, the color comes back more of a neutral tone and softer than day 1-2.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_brow_laminations_tints">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_brow_laminations_tints" aria-expanded="false" aria-controls="collapse_brow_laminations_tints">
+                                        BROW LAMINATIONS + TINTS
+                                    </button>
+                                </h2>
+                                <div id="collapse_brow_laminations_tints" class="accordion-collapse collapse" aria-labelledby="heading_brow_laminations_tints" data-bs-parent="#accordionAftercare">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Avoid getting the brow area wet for 24 hours.</li>
+                                            <li>Avoid contact with direct sunlight, sunbeds, saunas, steam rooms and swimming pools for the next 48 hours.</li>
+                                            <li>Avoiding excessive rubbing or touching of the treated area for 24 hours.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_lash_extensions">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_lash_extensions" aria-expanded="false" aria-controls="collapse_lash_extensions">
+                                        LASH EXTENSIONS
+                                    </button>
+                                </h2>
+                                <div id="collapse_lash_extensions" class="accordion-collapse collapse" aria-labelledby="heading_lash_extensions" data-bs-parent="#accordionAftercare">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Avoid getting them wet for up to 48 hours after application.</li>
+                                            <li>Do not rub or touch your eyes.</li>
+                                            <li>Clean with eyelash foam cleanser every 3 days.</li>
+                                            <li>Brush through your eyelash tips in the morning.</li>
+                                            <li>Do not use oil based products around or on the eyes.</li>
+                                            <li>Do not sleep on your face.</li>
+                                            <li>Stay on top of your infills (recommended every 2 - 3 weeks).</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_tooth_gems">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_tooth_gems" aria-expanded="false" aria-controls="collapse_tooth_gems">
+                                        TOOTH GEMS
+                                    </button>
+                                </h2>
+                                <div id="collapse_tooth_gems" class="accordion-collapse collapse" aria-labelledby="heading_tooth_gems" data-bs-parent="#accordionAftercare">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Don't touch the crystal or gem.</li>
+                                            <li>Don't eat for one hour after crystal is applied, you may drink immediately (avoid sodas or coffee).</li>
+                                            <li>Only eat soft foods for the first 12 hours.</li>
+                                            <li>Don't brush the tooth that has the gem for 12 hours.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+@section scripts{
+    <script src="~/Content/js/slick.min.js"></script>
+    <script src="~/Content/js/slick-animation.js"></script>
+    <script type="text/javascript">
+        ActiveMenu("menu-studio");
+
+        var sliderInit = $('.sliders');
+
+        $(document).ready(function () {
+            sliderInit.slick({
+                dots: false,
+                infinite: true,
+                slidesToShow: 1,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 4000,
+                fade: true,
+                draggable: false,
+                pauseOnFocus: false,
+                pauseOnHover: false,
+                touchMove: false
+            });
+            sliderInit.slickAnimation();
+
+            sliderInit.on('touchstart', e => {
+                sliderInit.slick('slickPlay');
+            });
+        });
+    </script>
+}

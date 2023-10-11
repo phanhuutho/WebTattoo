@@ -1,0 +1,25 @@
+.page-main {
+    position: relative;
+    font-family: "Vesper Libre";
+    color: var(--color-black);
+}
+.page-main h1 {
+    font-size: 250%;
+    color: var(--color-text-theme);
+}
+.page-main h1 span {
+    padding-bottom: 25px;
+    border-bottom: 2px solid var(--color-text-theme);
+    font-weight: 900;
+}
+.page-main p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.page-main li {
+    font-size: 18px;
+}
+.page-main .accordion-header button {
+    font-weight: bold;
+    padding-top: 25px;
+}

@@ -1,0 +1,185 @@
+﻿@{
+    ViewBag.Title = "Policies";
+}
+@section css{
+    <link href="~/Content/css/animate.min.css" rel="stylesheet">
+    <link href="~/Content/css/slick.css" rel="stylesheet">
+    <link href="~/Content/css/slick-theme.css" rel="stylesheet">
+    <link href="~/Content/css/slider.css" rel="stylesheet">
+    <link href="~/Content/css/page-policies.css" rel="stylesheet">
+}
+<main>
+    @{Html.RenderPartial("_SliderPageSub");}
+    <section class="bg">
+        <div class="bg-policies">
+            <div class="overlay"></div>
+            <div class="page-main container-xl py-5" id="policies">
+                <div class="row">
+                    <div class="col-xl-12 text-center my-3">
+                        <h2>POLICIES</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="accordion" id="accordionPolicies">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_deposits">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_deposits" aria-expanded="false" aria-controls="collapse_deposits">
+                                        DEPOSITS
+                                    </button>
+                                </h2>
+                                <div id="collapse_deposits" class="accordion-collapse collapse" aria-labelledby="heading_deposits" data-bs-parent="#accordionPolicies">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>
+                                                Cosmetic Tattooing: A $50 non-refundable deposit is required upon booking cosmetic tattoo appointments.
+                                                Follow-up appointments are made at the studio after your initial appointment.
+                                                A follow-up appointment doesn't require a deposit unless you cancel / reschedule the follow up appointment within 48 hours of the scheduled appointment.
+                                            </li>
+                                            <li>
+                                                Lash and Brow Grooming Services: A $25 deposit is required for all new lash extension sets.
+                                                Other lash and brow services do not require a deposit.
+                                            </li>
+                                            <li>Tooth Gems: Depending on the desired service, a $10-25 deposit is required upon booking tooth gem appointments.</li>
+                                        </ul>
+                                        <p>
+                                            Deposits hold your date and time on the artist's schedule.
+                                            If you need to reschedule or cancel your appointment, your deposit can be transferred one time.
+                                            Deposit amounts are applied to your appointment.
+                                            They are non-refundable.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_reschedules">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_reschedules" aria-expanded="false" aria-controls="collapse_reschedules">
+                                        CANCELS / RESCHEDULES
+                                    </button>
+                                </h2>
+                                <div id="collapse_reschedules" class="accordion-collapse collapse" aria-labelledby="heading_reschedules" data-bs-parent="#accordionPolicies">
+                                    <div class="accordion-body">
+                                        <p><u>Cosmetic Tattooing:</u></p>
+                                        <ul>
+                                            <li>
+                                                If you cancel or reschedule 48 hours outside of your scheduled appointment, your deposit can be transferred one time before another deposit is required.
+                                                (Clients are able to manage their appointments through Gloss if it’s outside of the 48 hour window.)
+                                            </li>
+                                            <li>
+                                                If you cancel or reschedule within 48 hours of your scheduled appointment, your deposit is forfeited and a new deposit is required upon booking another appointment.
+                                                (Clients must reach out to the studio if they’re canceling within 48 hours)
+                                            </li>
+                                            <li>
+                                                If you cancel or reschedule same-day, your deposit is forfeited and a last minute cancellation fee of 50% will be charged.
+                                                This is the same policy for no-call, no-show.
+                                            </li>
+                                            <li>
+                                                If we have to turn the appointment away due to being late to the appointment, lack of proper preparation for the appointment (ie; pre-care for tattooing), or booking the appointment incorrectly (ie; booking a color refresh instead of a cover-up tattoo), your deposit will be not transferable and a new deposit is required upon scheduling another appointment.
+                                            </li>
+                                        </ul>
+                                        <p><u>Lash and Brow Grooming Services:</u></p>
+                                        <ul>
+                                            <li>
+                                                If you cancel or reschedule within 48 hours of the scheduled appointment, a cancellation fee of 30% will be charged.
+                                                This fee needs to be paid in order to re-book future appointments.
+                                            </li>
+                                            <li>
+                                                If you cancel or reschedule same-day, a last minute cancellation fee of 50% will be charged.
+                                                This is the same policy for no-call, no-show.
+                                            </li>
+                                        </ul>
+                                        <p><u>Tooth Gems:</u></p>
+                                        <ul>
+                                            <li>
+                                                If you cancel or reschedule 48 hours outside of your scheduled appointment, your deposit can be transferred one time before another deposit is required.
+                                            </li>
+                                            <li>
+                                                If you cancel or reschedule within 48 hours of your scheduled appointment, your deposit is forfeited and a new deposit is required upon booking another appointment.
+                                            </li>
+                                            <li>
+                                                If you cancel or reschedule same-day, your deposit is forfeited and a last minute cancellation fee of 50% will be charged. This is the same policy for no-call, no-show.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_booking">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_booking" aria-expanded="false" aria-controls="collapse_booking">
+                                        BOOKING
+                                    </button>
+                                </h2>
+                                <div id="collapse_booking" class="accordion-collapse collapse" aria-labelledby="heading_booking" data-bs-parent="#accordionPolicies">
+                                    <div class="accordion-body">
+                                        <p>
+                                            We request ALL new booking go through our online booking system.
+                                            This is crucial because the site is designed for you to see all of the important information before scheduling a service.
+                                        </p>
+                                        <p>
+                                            If you miss your 4-6 week follow up appointment (cut off is 8 weeks) for cosmetic tattooing, it is now a "Color Refresh" appointment rather than a follow-up appointment regardless of reason.
+                                            Cosmetic tattoo is meant to fade over time, and the second session is meant to act as a perfecting appointment, so if enough pigment has faded then it would be considered a refresher appointment.
+                                        </p>
+                                        <p>
+                                            We do NOT work over another artist at another studio's work as "touch-ups".
+                                            If you are new to Atelier, it is considered a new appointment.
+                                            If you have previous tattooing, please send pictures to atelierbrowdesign@gmail.com to get pre-approval before booking.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_result">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_result" aria-expanded="false" aria-controls="collapse_result">
+                                        RESULTS
+                                    </button>
+                                </h2>
+                                <div id="collapse_result" class="accordion-collapse collapse" aria-labelledby="heading_result" data-bs-parent="#accordionPolicies">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Healed results will vary with each individual client.
+                                            We have no control over what occurs during the healing process.
+                                            Additional touch ups can be required, because there are many-many factors to cosmetic tattoo healing process that we can not control, and while we typically have beautiful healed results on our clients we can not guarantee that permanent makeup procedure will fully replace all the makeup products you used to apply on your brows, lips or eyes.
+                                        </p>
+                                        <p>
+                                            Depending on your lashes state, we can not guarantee how your lash lift or lash extensions will hold.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+@section scripts{
+    <script src="~/Content/js/slick.min.js"></script>
+    <script src="~/Content/js/slick-animation.js"></script>
+    <script type="text/javascript">
+        ActiveMenu("menu-studio");
+
+        var sliderInit = $('.sliders');
+
+        $(document).ready(function () {
+            sliderInit.slick({
+                dots: false,
+                infinite: true,
+                slidesToShow: 1,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 4000,
+                fade: true,
+                draggable: false,
+                pauseOnFocus: false,
+                pauseOnHover: false,
+                touchMove: false
+            });
+            sliderInit.slickAnimation();
+
+            sliderInit.on('touchstart', e => {
+                sliderInit.slick('slickPlay');
+            });
+        });
+    </script>
+}

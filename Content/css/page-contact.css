@@ -44,8 +44,7 @@
 .gallery {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: var(--color-theme);
-    background-image: url(../images/contact/service_bg.jpg);
+    background-color: var(--bg-site);
     background-repeat: no-repeat !important;
     background-position: 50% 65%;
     background-size: cover !important;

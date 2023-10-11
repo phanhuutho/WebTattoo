@@ -1,0 +1,44 @@
+main {
+
+}
+.page-main {
+    position: relative;
+}
+.page-main p, .page-main li {
+    font-size: 14px;
+}
+.box-image {
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.box-image img {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.box-text {
+    padding: 10px;
+    background-color: var(--color-yellow-pastle);
+}
+.box-text h2{
+    font-family: Prata;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--color-black);
+}
+.divider {
+    background-color: var(--color-black);
+}
+.page-main .box-inner {
+    padding: var(--padding-box);
+    background-color: var(--color-theme);
+}
+
+.page-main .order-2 {
+    padding-top: 15px;
+}

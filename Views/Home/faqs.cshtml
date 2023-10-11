@@ -1,0 +1,222 @@
+﻿@{
+    ViewBag.Title = "FAQ";
+}
+@section css{
+    <link href="~/Content/css/animate.min.css" rel="stylesheet">
+    <link href="~/Content/css/slick.css" rel="stylesheet">
+    <link href="~/Content/css/slick-theme.css" rel="stylesheet">
+    <link href="~/Content/css/slider.css" rel="stylesheet">
+    <link href="~/Content/css/page-faqs.css" rel="stylesheet">
+}
+<main>
+    @{Html.RenderPartial("_SliderPageSub");}
+    <section class="bg">
+        <div class="bg-policies">
+            <div class="overlay"></div>
+            <div class="page-main container-xl py-5">
+                <div class="row">
+                    <div class="col-xl-12 text-center my-3">
+                        <h2>FREQUENTLY ASKED</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="accordion" id="accordionFAQs">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_FAQ_1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_FAQ_1" aria-expanded="false" aria-controls="collapse_FAQ_1">
+                                        CAN MY DEPOSIT BE TRANSFERRED?
+                                    </button>
+                                </h2>
+                                <div id="collapse_FAQ_1" class="accordion-collapse collapse" aria-labelledby="heading_FAQ_1" data-bs-parent="#accordionFAQs">
+                                    <div class="accordion-body">
+                                        <p>
+                                            If you cancel or reschedule your appointment outside of the 48 hour window, you are able to transfer your deposit one time before requiring another deposit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_FAQ_2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_FAQ_2" aria-expanded="false" aria-controls="collapse_FAQ_2">
+                                        IS MY DEPOSIT REFUNDABLE IF I CHANGE MY MIND?
+                                    </button>
+                                </h2>
+                                <div id="collapse_FAQ_2" class="accordion-collapse collapse" aria-labelledby="heading_FAQ_2" data-bs-parent="#accordionFAQs">
+                                    <div class="accordion-body">
+                                        <p>No, all deposits are non-refundable.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_FAQ_3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_FAQ_3" aria-expanded="false" aria-controls="collapse_FAQ_3">
+                                        WHAT DO I NEED TO DO TO PREPARE FOR MY APPOINTMENT?
+                                    </button>
+                                </h2>
+                                <div id="collapse_FAQ_3" class="accordion-collapse collapse" aria-labelledby="heading_FAQ_3" data-bs-parent="#accordionFAQs">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Select on the service your getting page on the website and review the pre and after care.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_FAQ_4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_FAQ_4" aria-expanded="false" aria-controls="collapse_FAQ_4">
+                                        I JUST GOT BOTOX, CAN I STILL GET TATTOOED?
+                                    </button>
+                                </h2>
+                                <div id="collapse_FAQ_4" class="accordion-collapse collapse" aria-labelledby="heading_FAQ_4" data-bs-parent="#accordionFAQs">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Depending on where the botox is and where you're getting cosmetic tattooing done, it is strongly advised to not get any tattoo done while the botox is setting in.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_FAQ_5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_FAQ_5" aria-expanded="false" aria-controls="collapse_FAQ_5">
+                                        DO YOU OFFER CONSULTATIONS?
+                                    </button>
+                                </h2>
+                                <div id="collapse_FAQ_5" class="accordion-collapse collapse" aria-labelledby="heading_FAQ_5" data-bs-parent="#accordionFAQs">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Consultations take place during the initial appointment as a part of the process where we go over: Shape, Design, Color(s), Expectations, & Long Term Care.
+                                            The information on this website will answer (if not all) most questions and concerns you may have, however, you are welcome to email your artist directly before booking to check that they can meet your expectations.
+                                            Please feel free to reach out to us with any questions or concerns you may have at (804)-272-3867.
+                                            There are several factors that would disqualify someone from being a candidate.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_FAQ_6">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_FAQ_6" aria-expanded="false" aria-controls="collapse_FAQ_6">
+                                        DOES COSMETIC TATTOOING HURT?
+                                    </button>
+                                </h2>
+                                <div id="collapse_FAQ_6" class="accordion-collapse collapse" aria-labelledby="heading_FAQ_6" data-bs-parent="#accordionFAQs">
+                                    <div class="accordion-body">
+                                        <p>
+                                            We use a highly effective numbing agent before your procedure begins.
+                                            Pain threshold levels vary from person to person and every effort is made to ensure you remain comfortable for the entirety of the procedure.
+                                            Having this service performed during your menstrual cycle may increase discomfort during your procedure.
+                                            If you are a frequent smoker, the topical anesthetics used during the treatment will not last as long.
+                                            If you have been diagnosed with Fibromyalgia, be aware that this may affect your sensitivity tolerance to the procedure.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_FAQ_7">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_FAQ_7" aria-expanded="false" aria-controls="collapse_FAQ_7">
+                                        HOW LONG DOES COSMETIC TATTOOING LAST?
+                                    </button>
+                                </h2>
+                                <div id="collapse_FAQ_7" class="accordion-collapse collapse" aria-labelledby="heading_FAQ_7" data-bs-parent="#accordionFAQs">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Cosmetic tattoo treatments are considered semi-permanent and will not wash off, however, they will fade over time (1-5 years) and may need to be refreshed every 1-2 years (depending on genetics and lifestyle).
+                                            Frequency of touch-ups depends on a number of factors including: diligence of the client towards planning ahead and following aftercare protocols, the pigment color used (lighter colors fade faster-Blondes), lifestyle (sun exposure), skin type (oily or dry), and if any chemical peels (AHA, BHA, Retinols) come into contact with treated areas.
+                                            Please note that final results CAN NOT be guaranteed as each unique skin type will hold pigments differently and break down at different rates.
+                                            We will re-evaluate how your skin has received the pigment at your follow up appointment and make any changes necessary.
+                                            Follow Up’s are normal for cosmetic tattoo procedures, with each new procedure requiring at least 2 visits.
+                                            The initial procedure, then touch up procedure about 4-6 weeks later(depending on service).
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_FAQ_8">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_FAQ_8" aria-expanded="false" aria-controls="collapse_FAQ_8">
+                                        WHAT FACTORS WILL EFFECT MY COSMETIC TATTOO?
+                                    </button>
+                                </h2>
+                                <div id="collapse_FAQ_8" class="accordion-collapse collapse" aria-labelledby="heading_FAQ_8" data-bs-parent="#accordionFAQs">
+                                    <div class="accordion-body">
+                                        <p>NOT properly following the provided aftercare instructions.</p>
+                                        <p>Sun exposure: The sun will extremely soften the look of your tattoo, so sunblock should be used (once healed) to prolong your enhancement.</p>
+                                        <p>The regeneration of skin cells: The longer the regeneration takes, the longer the pigment holds.</p>
+                                        <p>The speed at which the skin absorbs the pigment: The slower the absorption, the longer the pigment will hold.</p>
+                                        <p>The choice of color: Some colors fade quicker than others, e.g. a blonde color will fade quicker than a dark brown color.</p>
+                                        <p>The area of treatment: Enhancements to the face, for example, fade more quickly due to constant exposure.</p>
+                                        <p>
+                                            Bleeding during the procedure: Any bleeding during the tattooing procedure will reduce the amount of pigment absorption.
+                                            Alcohol, fish oils, and certain medications act as blood-thinners and should not be taken prior to and following your appointment.
+                                            If you are on a blood thinner medication, you MUST get an approval from your doctor to lower or eliminate your dose before the procedure.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_FAQ_9">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_FAQ_9" aria-expanded="false" aria-controls="collapse_FAQ_9">
+                                        I MISSED MY FOLLOW UP APPOINTMENT, CAN I STILL SCHEDULE IT?
+                                    </button>
+                                </h2>
+                                <div id="collapse_FAQ_9" class="accordion-collapse collapse" aria-labelledby="heading_FAQ_9" data-bs-parent="#accordionFAQs">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Cosmetic tattooing naturally fades over time.
+                                            The second session can be crucial for desired results.
+                                            If enough time has passed, your follow up may need to be booked as a "Color Refresh" for the right amout of time and supplies needed.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_FAQ_10">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_FAQ_10" aria-expanded="false" aria-controls="collapse_FAQ_10">
+                                        WHO DOES MY DEPOSIT GO TO?
+                                    </button>
+                                </h2>
+                                <div id="collapse_FAQ_10" class="accordion-collapse collapse" aria-labelledby="heading_FAQ_10" data-bs-parent="#accordionFAQs">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Deposits are meant to secure the time and date of your appointment.
+                                            If you cancel within 48 hours, or same day, your deposit is non-transferrable and the deposit goes straight to the artist to protect their lost income.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+@section scripts{
+    <script src="~/Content/js/slick.min.js"></script>
+    <script src="~/Content/js/slick-animation.js"></script>
+    <script type="text/javascript">
+        ActiveMenu("menu-studio");
+
+        var sliderInit = $('.sliders');
+
+        $(document).ready(function () {
+            sliderInit.slick({
+                dots: false,
+                infinite: true,
+                slidesToShow: 1,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 4000,
+                fade: true,
+                draggable: false,
+                pauseOnFocus: false,
+                pauseOnHover: false,
+                touchMove: false
+            });
+            sliderInit.slickAnimation();
+
+            sliderInit.on('touchstart', e => {
+                sliderInit.slick('slickPlay');
+            });
+        });
+    </script>
+}

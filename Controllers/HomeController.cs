@@ -34,6 +34,11 @@ namespace WebTattoo.Controllers
             return View();
         }
 
+        public ActionResult Artists()
+        {
+            return View();
+        }
+
         public ActionResult Gifts()
         {
             return View();
@@ -53,6 +58,21 @@ namespace WebTattoo.Controllers
         {
             var Galleries = (List<GalleryModel>)ViewBag.Gallery ?? new List<GalleryModel>();
             return View(Galleries);
+        }
+
+        public ActionResult Policies()
+        {
+            return View();
+        }
+
+        public ActionResult Aftercare()
+        {
+            return View();
+        }
+
+        public ActionResult FAQS()
+        {
+            return View();
         }
 
         [HttpPost]
