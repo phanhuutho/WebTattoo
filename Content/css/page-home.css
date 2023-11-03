@@ -47,7 +47,7 @@
     height: 800px;
     background-image: url(../images/banner/home/home_banner_1.jpg);
     background-repeat: no-repeat !important;
-    background-position: 85% 75%;
+    background-position: 85% 50%;
     background-size: cover !important;
     display: flex;
     align-items: center;
@@ -61,10 +61,10 @@
     height: 800px;
     background-image: url(../images/banner/home/home_banner_2.jpg);
     background-repeat: no-repeat !important;
-    background-position: 60% 50%;
+    background-position: 75% 70%;
     background-size: cover !important;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
 }
 .slider-home .sliders .slider-3 .box-image .image {
@@ -75,10 +75,10 @@
     height: 800px;
     background-image: url(../images/banner/home/home_banner_3.jpg);
     background-repeat: no-repeat !important;
-    background-position: 20% 25%;
+    background-position: 55% 30%;
     background-size: cover !important;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
 }
 .slider-home .sliders .slider-4 .box-image .image {
@@ -89,11 +89,11 @@
     height: 800px;
     background-image: url(../images/banner/home/home_banner_4.jpg);
     background-repeat: no-repeat !important;
-    background-position: 100% 80%;
+    background-position: 90% 60%;
     background-size: cover !important;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: flex-end;
+    justify-content: center;
 }
 .slider-home .sliders .slider-5 .box-image .image {
     position: absolute;
@@ -103,11 +103,11 @@
     height: 800px;
     background-image: url(../images/banner/home/home_banner_5.jpg);
     background-repeat: no-repeat !important;
-    background-position: 50% 50%;
+    background-position: 50% 85%;
     background-size: cover !important;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .slider-home .slider-1 .box-image {
@@ -134,7 +134,7 @@
     color: var(--color-black);
     font-family: 'Fira Sans';
     font-size: 45px;
-    text-shadow: 0px 0px 1px var(--color-black);
+    text-shadow: 0px 0px 1px var(--color-white);
     font-weight: bold;
 }
 .slider-home .sliders .box-inner a.btn{
@@ -188,8 +188,8 @@
 .slider-home .sliders .slider-2 .box-image .box-inner h1, .slider-home .sliders .slider-2 .box-inner h2 {
     font-family: 'Fira Sans';
     font-size: 45px;
-    color: var(--color-black);
-    text-shadow: 0px 0px 1px var(--color-white);
+    color: var(--color-white);
+    text-shadow: 0px 0px 5px var(--color-black);
     font-weight: bold;
     margin-top: 1rem;
 }
@@ -204,7 +204,7 @@
     font-family: 'Fira Sans';
     font-size: 45px;
     color: var(--color-white);
-    text-shadow: 0px 0px 1px var(--color-black);
+    text-shadow: 0px 0px 5px var(--color-black);
     font-weight: bold;
 }
 .slider-home .sliders .slider-3 .box-image .box-inner p {
@@ -218,7 +218,7 @@
     font-family: 'Fira Sans';
     font-size: 45px;
     color: var(--color-white);
-    text-shadow: 0px 0px 1px var(--color-black);
+    text-shadow: 0px 0px 5px var(--color-black);
     font-weight: bold;
 }
 .slider-home .sliders .slider-5 .box-image .box-inner h1, .slider-home .sliders .slider-5 .box-inner h2 {
