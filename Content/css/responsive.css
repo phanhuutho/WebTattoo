@@ -184,7 +184,7 @@
     }
     .slider-home .sliders .slider-1 .box-image .image{
         align-items: flex-end;
-        background-position: 72.5% 50%;
+        background-position: 22.5% 50% !important;
     }
     .slider-home .sliders .slider-2 .box-image .image{
         background-image: url(../images/banner/home/home_banner_2_portrait.jpg);
@@ -381,7 +381,8 @@
 
     }
     .slider-home .sliders .slider-1 .box-image .image {
-
+        background-position: 15% 75%;
+        align-items: flex-end;
     }
     .slider-home .sliders .slider-2 .box-image .image {
 

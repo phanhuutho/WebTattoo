@@ -1,8 +1,8 @@
-﻿<div class="row align-items-center">
-    <div class="col-lg-6 text-center">
+﻿<div class="row">
+    <div class="col-lg-4">
         <img src="/Content/images/about-us/img_about.jpg" class="img-fluid img-thumbnail rounded" atl="" />
     </div>
-    <div class="col-lg-6 mt-3">
+    <div class="col-lg-8 py-3">
         <h1 class="text-uppercase">About Microblading RVA</h1>
         <p>
             Microblading RVA is the home to independent artists specializing in hyper-realistic cosmetic tattooing, lash and brow grooming services, and even unique tooth gems. 
@@ -12,15 +12,7 @@
         <p>
             We operate on a by appointment only schedule. 
             The studio's preferred way of contact your artist directly. 
-            You can find artist's contact information <a class="text-primary" href="/artists.html">here</a>.
         </p>
-    </div>
-</div>
-<div class="row mt-5 align-items-center">
-    <div class="col-lg-6 order-1 order-lg-2 text-center">
-        <img src="/Content/images/about-us/img_why.jpg" class="img-fluid img-thumbnail rounded" atl="" />
-    </div>
-    <div class="col-lg-6 order-2 order-lg-1 mt-3">
         <h1 class="text-uppercase">Why Microblading RVA?</h1>
         <p>
             Microblading RVA is built off of the hard work and dedication of our incredible artists. 
